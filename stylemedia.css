@@ -1,6 +1,12 @@
 @media (max-width: 768px) {
+    .yourself{
+        display: block;
+      }
+    .for-decstop{
+        display: none;
+      }
     .logo-name {
-        font-size: 2rem;
+        font-size: 2.66rem;
     }
     .course-title {
         border-radius: 5px;
@@ -94,17 +100,17 @@
   margin-right: 10px;
 }
 .text-transform-div {
-    height: 71.5vh;
+    height: 65vh;
 }
 .yourself {
     font-size: 1.8rem;
     margin: 67px auto 0;
 }
 .we-recruit {
-    width: 293px;
+    width: 360px;
     line-height: 1.7;
-    font-size: 1rem;
-    margin: 29px auto 0;
+    font-size: 1.1rem;
+    margin: 20px auto 0;
 }
 .first-photo-div {
     margin-left: 9px;
@@ -137,7 +143,7 @@
     margin-left: 0;
 }
 .view-border {
-    margin: 59px -103px;
+    margin: 39px -103px;
     padding: 16px 39px;
 
 }
