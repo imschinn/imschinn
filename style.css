@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 body{
     font-family: "Lato", sans-serif;
@@ -15,10 +16,12 @@ body{
 
 header {
   background-color: #FFFFFF; 
-  padding: 15px 0;
+  padding: 5px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.class-in{
+  color: #ffc63d;
+}
 .nav-main { 
   display: flex;
   justify-content: space-between;
@@ -28,12 +31,13 @@ header {
   padding: 0 20px;
 }
 .logo-name a {
-  color: #ffc63d;
+  color: #000000;
   transition: color 0.2s ease;
 }
 .logo-name {
-  font-size: 1.7rem;
-  font-weight: bold;
+  font-size: 2.7rem;
+  font-weight: 700;
+  font-family: League Spartan;
   cursor: pointer;
   animation: slideInFromLeft 1s ease forwards;
 }
@@ -48,11 +52,6 @@ header {
       opacity: 1;
   }
 }
-
-.logo-name a:hover {
-  color: #000000;
-}
-
 .menu-icon span {
   font-size: 30px;
   color: #2C3E50;
@@ -358,7 +357,12 @@ color: #181818;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-
+.course-title {
+  border-radius: 5px;
+}
+.grid-item{
+  border-radius: 5px; 
+}
 .image-all-container {
   margin-top: 64px;
   margin-bottom: 58px;
