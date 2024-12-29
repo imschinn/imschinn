@@ -1,16 +1,22 @@
-
 document.getElementById('goBackBtn').addEventListener('click', function() {
     history.back();
 });
-
-
+// --------------------------------------------------------------------------
+$(document).ready(function () {
+    $('.hero-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+    autoplay:true,
+      arrows: false
+    });
+  });
 // --------------------------------------------------------------------------
 function toggleMenu() {
     var menu = document.getElementById("side-menu");
-    if (menu.style.width === "250px") {
+    if (menu.style.width === "175px") {
         menu.style.width = "0";
     } else {
-        menu.style.width = "250px";
+        menu.style.width = "175px";
     }
 }
 document.addEventListener('DOMContentLoaded', function () {
