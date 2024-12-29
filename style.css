@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.cs');
 
 body{
     font-family: "Lato", sans-serif;
@@ -39,6 +40,7 @@ header {
   font-weight: 700;
   font-family: League Spartan;
   cursor: pointer;
+  letter-spacing: -3px;
   animation: slideInFromLeft 1s ease forwards;
 }
 
@@ -58,18 +60,17 @@ header {
   cursor: pointer;
 }
  
-  .side-menu {
-    height: 35vh;
-    width: 0;
-    position: fixed;
-    top: 2rem;
-    right: 1rem;
-    background-color: #ffc63d;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 77px;
-    z-index: 1;
-    border-radius: 1rem;
+.side-menu {
+  height: 17rem;
+  width: 0;
+  position: fixed;
+  right: 0rem;
+  background-color: #ffc63d;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 77px;
+  z-index: 1;
+  border-radius: 5px;
 }
   
   .side-menu a {
@@ -291,10 +292,18 @@ textarea::placeholder {
     padding-top: 15%;
 }
 .yourself{
+  display: none;
+}
+.for-decstop{
+  font-size: 3.5rem;
+  font-family: mon;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.yourself div{
     font-size: 3.5rem;
-    font-family: mon;
-    line-height: 1.1;
-    margin-bottom: 20px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
