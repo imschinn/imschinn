@@ -1,4 +1,13 @@
 @media (max-width: 768px) {
+    .logo-name {
+        font-size: 2rem;
+    }
+    .course-title {
+        border-radius: 5px;
+    }
+    .grid-item{
+        border-radius: 5px; 
+    }
     .footer-column {
         flex: 1;
         margin: 10px;
@@ -21,7 +30,7 @@
         align-items: center;
       }
     
- .form-row {
+   .form-row {
         flex-direction: column;
         gap: 0;
       }
@@ -43,12 +52,17 @@
     }
 .grid {
     grid-template-columns: repeat(2, 1fr);
+    margin: 0px 9px;
 }
  #education h2 {
     font-size: 50px;
 }
 .view-all-classes h2 {
-        font-size: 25px;
+   font-size: 35px;
+}
+.container-Formats-and-images h2 {
+    font-size: 30px;
+    margin: 35px auto 0;
 }
 .text-transform-div {
    width: 100%;
@@ -80,7 +94,7 @@
   margin-right: 10px;
 }
 .text-transform-div {
-    height: 74vh;
+    height: 71.5vh;
 }
 .yourself {
     font-size: 1.8rem;
@@ -162,12 +176,21 @@ input{
 }
 
 }
+/* --------------------------------------------------------480px------------- */
 @media (max-width: 480px) {
     .grid {
       grid-template-columns: 1fr;
     }
-.view-all-classes h2 {
-      font-size: 35px;
+    .view-all-classes h2 {
+        font-size: 29px;
+     }
+     .container-Formats-and-images h2 {
+        font-size: 29px;
+        margin: 35px auto 0;
+    }
+    .image-all-container {
+        margin-top: 35px;
+        margin-bottom: 58px;
     }
  .first-image-main-div {
             width: 100%;
